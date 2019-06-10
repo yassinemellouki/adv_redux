@@ -5,7 +5,7 @@
     "start-api": "run-p create-json-db api-server",
     "create-json-db": "node tools/createMockDb.js",
     "api-server": "json-server tools/db.json -p 3001",
-    "start:dev": "webpack-dev-server --config webpack.config.dev.js --port 3000",
+    "start:dev": "webpack-dev-server --config webpack.config.dev.js --port 3002",
     "start":"run-p start-api start:dev"
   },
   "dependencies": {
